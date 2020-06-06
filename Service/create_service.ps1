@@ -19,7 +19,7 @@ cd $serviceName
 # 	link projects to solution
 # 	link code project to test project
 
-# Domain
+# API
 mkdir API
 cd API
 dotnet new webapi --name "$($serviceName).API"
@@ -41,7 +41,7 @@ dotnet sln "$($serviceName).Application.sln" add "$($serviceName).Application.Te
 dotnet add "$($serviceName).Application.Test\$($serviceName).Application.Test.csproj" reference "$($serviceName).Application\$($serviceName).Application.csproj"
 cd ..
 
-# API
+# Domain
 mkdir Domain
 cd Domain
 dotnet new classlib --name "$($serviceName).Domain"
