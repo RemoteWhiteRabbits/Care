@@ -25,7 +25,7 @@ cd API
 dotnet new webapi --name "$($serviceName).API"
 dotnet new nunit --name "$($serviceName).API.Test"
 dotnet new sln --name "$($serviceName).API"
-dotnet sln "$($serviceName).API.sln" add "$($serviceName).API\$($serviceName).API.csproj" "$($serviceName).API.Test\$($serviceName).API.Test.csproj"
+dotnet sln "$($serviceName).API.sln" add "$($serviceName).API\$($serviceName).API.csproj"
 dotnet sln "$($serviceName).API.sln" add "$($serviceName).API.Test\$($serviceName).API.Test.csproj"
 dotnet add "$($serviceName).API.Test\$($serviceName).API.Test.csproj" reference "$($serviceName).API\$($serviceName).API.csproj"
 cd ..
