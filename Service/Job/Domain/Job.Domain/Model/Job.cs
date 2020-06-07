@@ -5,11 +5,20 @@
 
     public class Job
     {
-        public Guid JobId { get; set; }
-        public JobReference JobReference  { get; set; }
+        public Guid JobId { get; }
+        public JobReference JobReference  { get; }
 
-        public EnJobStatus Status { get; set; }
-        public DateTime StartTimeStamp { get; set; }
-        public DateTime StopTimeStamp { get; set; }
+        public EnJobStatus Status { get; }
+        public DateTime StartTimeStamp { get; }
+        public DateTime StopTimeStamp { get; }
+
+        public Job(Guid jobId, JobReference jobReference, EnJobStatus status, DateTime startTimeStamp, DateTime stopTimeStamp)
+        {
+            this.JobId = jobId;
+            this.JobReference = jobReference;
+            this.Status = status;
+            this.StartTimeStamp = startTimeStamp;
+            this.StopTimeStamp = stopTimeStamp;
+        }
     }
 }
