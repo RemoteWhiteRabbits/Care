@@ -1,4 +1,4 @@
-﻿namespace Schedule.Domain
+﻿namespace Schedule.Domain.Enum
 {
     public enum EnDaysPerWeek
     {

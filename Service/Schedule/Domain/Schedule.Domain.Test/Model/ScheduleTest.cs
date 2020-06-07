@@ -3,6 +3,7 @@
     using System;
     using System.Collections.Generic;
     using Domain.Model;
+    using Enum;
     using NUnit.Framework;
 
     [TestFixture]

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 
 namespace Schedule.Domain.Model
 {
+    using Enum;
+
     public class Schedule
     {
         public Guid ScheduleId { get; }
