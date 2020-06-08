@@ -2,6 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Company>Remote Withe Rabbits</Company>
+    <Authors>Carmine Ciecalupi and Serhiy Kucherenko</Authors>
+    <Description>Domain for Profile API</Description>
   </PropertyGroup>
 
 </Project>
