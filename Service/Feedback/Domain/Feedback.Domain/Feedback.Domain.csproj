@@ -2,6 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Carmine Ciecalupi and Serhiy Kucherenko</Authors>
+    <Company>Remote White Rabbits</Company>
+    <Description>Domain for Feedback API</Description>
   </PropertyGroup>
 
 </Project>
