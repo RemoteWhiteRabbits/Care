@@ -2,6 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Serhiy Kucherenko and Carmine Ciecalupi</Authors>
+    <Company>Remote White Rabbits</Company>
+    <Description>Domain for Geolocation API</Description>
   </PropertyGroup>
 
 </Project>
